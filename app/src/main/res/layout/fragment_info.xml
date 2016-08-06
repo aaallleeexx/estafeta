@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:background="#ffffff">
+
+    <TextView
+        android:textSize="16sp"
+        android:hint="Type of task"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="After Unloading / After Unloading Survey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:hint="Planned start time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/fragment_panned_start_time"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="04/21/15 14:30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:hint="Survey date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/fragment_survey_date"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="04/21/15 14:30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:hint="VIN"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/fragment_vin"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="DEM0V1N"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:hint="Brand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/fragment_brand"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="Ford"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:hint="Model"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/fragment_model"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="Focus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:hint="Model code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/fragment_model_code"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="FCS_MC1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textSize="16sp"
+        android:hint="Place inspection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/fragment_place_inspection"
+        android:layout_marginBottom="8dp"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:text="Kiev"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
